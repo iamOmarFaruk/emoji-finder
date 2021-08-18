@@ -52,7 +52,7 @@ jQuery(document).ready(function ($) {
                     promoTextandStatus.innerHTML = `${emojis.length} emojis found`;
                   }
                 } else {
-                  promoTextandStatus.innerHTML = "Sorry no post found! 😟";
+                  promoTextandStatus.innerHTML = "Sorry no emoji found! 😟";
                 }
               });
             }
