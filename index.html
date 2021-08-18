@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Finder 😎</title>
+    <!-- Install Miligram css -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <!-- Install Miligram css -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- --------------------------- install jquery ---------------------------- -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <!-- heading start -->
+   <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="app_heading clearfix">
+                    <h3>Emoji Finder</h3>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- heading close -->
+
+    <!-- search bar start -->
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="search_bar_wrapper clearfix">
+                   <form id="search_bar" onsubmit="return false">
+                        <input type="text" id="search_bar_input" name="search" placeholder="Type and press ENTER">
+                   </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- search bar close -->
+
+    <!-- loading start -->
+    <div class="container">
+        <div class="loader"></div>
+        <br>
+    </div>
+    <!-- loading close -->
+
+
+    <!-- emojis layout start -->
+   <div class="container">
+        <div class="posts_area">
+             <div class="row">
+                <div class="column">
+                    <h3 class="promo_text">Find the emoji of your choice</h3>
+                    <div class="post_wrapper">
+                       
+                    </div>
+                    <!-- posts wrapper -->
+                </div>
+             </div>
+        </div>
+    </div>
+    <!-- emojis layout close -->
+
+
+    <!-- footer area -->
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                <div class="footer clearfix">
+                    <p>Create by <a href="https://github.com/OmarFSarkar">Omar Faruk and</a> 💖 with JS</p>
+                    <small>This project used <a href="https://emoji-api.com/">Open Emoji API</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer area -->
+
+
+
+
+</body>
+<!-- ------------------------------- script -------------------------------- -->
+<script src="script.js"></script>
+</html>
